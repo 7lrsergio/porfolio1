@@ -25,7 +25,9 @@
 }
 
 
-
+.closePreview{
+  display: none;
+}
 
 .cursor-follower text{
   font-size:var(--cursor-font-size);
@@ -860,6 +862,10 @@ li{
 .preview{
   top: 5rem;
   right: 24%;
+}
+
+.closePreview{
+  display: flex;
 }
 
   .end{
